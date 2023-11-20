@@ -17,7 +17,7 @@ public class TrackerCoreConfig {
 
     @Bean(name = "timesheet")
     public List<TimeEntry> timeEntries() {
-        System.out.println("Hello Pat");
+        System.out.println("Hello Pat..");
         return new ArrayList<>();
     }
 }
